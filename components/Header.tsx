@@ -10,7 +10,7 @@ export default function Header() {
     { name: "Contact", path: "#" },
   ];
   return (
-    <header className="fixed p-5  flex  items-center   justify-between  w-full   border-b border-gray-200  shadow-sm">
+    <header className="sticky top-0 left-0 p-5  bg-white/90 backdrop-blur-md  flex  items-center   justify-between  w-full   border-b border-gray-200  shadow-sm z-100">
       <div className="flex items-center gap-2  ml-4   lg:ml-20">
         <HugeiconsIcon
           icon={Chart03Icon}

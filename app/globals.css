@@ -7,18 +7,20 @@
 
 @theme inline {
     /* Design System  Guide Implementations  here */
-    
+
   --color-primary:#1E3A8A ;
   --color-accent:#3B82F6 ;
+  --color-back:#F5F8FC ;
 }
 
-@media (prefers-color-scheme: dark) {
-  /* :root {
+/* @media (prefers-color-scheme: dark) {
+  :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-  } */
-}
+  }
+} */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);
 }
