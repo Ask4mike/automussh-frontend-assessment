@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Link from "next/link";
 import Image from "next/image";
 import Hero from "@/public/hero-img.png";
+import Features from "@/components/Features";
 
 export default function Home() {
   return (
@@ -50,6 +51,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Features/>
     </>
   );
 }
