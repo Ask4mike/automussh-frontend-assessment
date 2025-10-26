@@ -5,6 +5,7 @@ import Hero from "@/public/hero-img.png";
 import Features from "@/components/Features";
 import DashboardPreview from "@/components/DashboardPreview";
 import Testimonials from "@/components/Testimonials";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -53,9 +54,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <Features/>
-      <DashboardPreview/>
-      <Testimonials/>
+      <Features />
+      <DashboardPreview />
+      <Testimonials />
+      <Footer />
     </>
   );
 }
