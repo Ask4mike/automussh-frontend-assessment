@@ -4,6 +4,7 @@ import Image from "next/image";
 import Hero from "@/public/hero-img.png";
 import Features from "@/components/Features";
 import DashboardPreview from "@/components/DashboardPreview";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -54,6 +55,7 @@ export default function Home() {
       </section>
       <Features/>
       <DashboardPreview/>
+      <Testimonials/>
     </>
   );
 }
