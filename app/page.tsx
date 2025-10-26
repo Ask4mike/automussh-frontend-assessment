@@ -3,12 +3,13 @@ import Link from "next/link";
 import Image from "next/image";
 import Hero from "@/public/hero-img.png";
 import Features from "@/components/Features";
+import DashboardPreview from "@/components/DashboardPreview";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <section className=" py-15  bg-linear-to-br  from-background to-blue-50">
+      <section className=" py-15  bg-linear-to-br  from-back to-blue-50">
         <div className="grid lg:grid-cols-2">
           <div className=" mx-15  lg:px-15  lg:py-25 ">
             <h1 className=" my-4  text-4xl font-bold  leading-tight  lg:text-6xl">
@@ -52,6 +53,7 @@ export default function Home() {
         </div>
       </section>
       <Features/>
+      <DashboardPreview/>
     </>
   );
 }
